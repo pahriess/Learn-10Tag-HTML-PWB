@@ -1,10 +1,11 @@
-1. <h1> - <h6> : Digunakan buat bikin judul. Angka 1 itu judul utama yang paling besar, makin besar angkanya makin kecil ukurannya.
-2. <p> : Digunakan buat bikin paragraf teks. Otomatis ngasih jarak baris baru antar blok teks.
-3. <a> : Digunakan buat bikin link atau tautan yang bisa diklik buat pindah halaman.
-4. <img> : Digunakan buat nampilin gambar di dalam halaman web.
-5. <ul> & <ul> : Digunakan buat bikin daftar poin-poin (bullet points). <ul> itu wadahnya, <li> itu isi tiap poinnya.
-6. <div> : Digunakan sebagai wadah atau kotak pembungkus buat ngelompokkin beberapa elemen jadi satu bagian.
-7. <span> : Digunakan buat bungkus kata atau teks pendek di dalam satu baris supaya bisa diatur secara spesifik.
-8. <br> : igunakan buat maksa teks pindah ke baris baru (enter) tanpa bikin paragraf baru.
-9. <button> : Digunakan buat bikin tombol yang bisa diklik oleh user.
-10. <table> : Digunakan buat nampilin data dalam bentuk tabel yang punya baris dan kolom.
+Nama Tag,Fungsi Utama
+<h1> - <h6>,Membuat judul atau heading. <h1> adalah yang terbesar dan <h6> terkecil.
+<p>,Membuat paragraf teks dengan jarak baris otomatis.
+<a>,Membuat hyperlink untuk menghubungkan satu halaman ke halaman lain.
+<img>,Menyisipkan dan menampilkan gambar pada halaman.
+<ul> & <li>,Membuat daftar poin (bullet points) yang tidak berurutan.
+<div>,Sebagai kontainer blok untuk mengelompokkan elemen-elemen.
+<span>,Sebagai kontainer inline untuk membungkus teks di dalam baris yang sama.
+<br>,Memaksa teks untuk pindah ke baris baru (line break).
+<button>,Membuat tombol interaktif yang dapat diklik oleh pengguna.
+<table>,Menampilkan data dalam format baris dan kolom (tabel).
