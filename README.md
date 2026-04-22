@@ -1,52 +1,19 @@
-1. <h1> sampai <h6> (Headings)
-Tag ini buat bikin judul. <h1> itu yang paling gede (biasanya buat judul utama), terus makin ke bawah makin kecil ukurannya sampai <h6>.
+<h1> - <h6>: Digunakan buat bikin judul. Angka 1 itu judul utama yang paling besar, makin besar angkanya makin kecil ukurannya.
 
-Contoh: <h1>Ini Judul Utama</h1>
+<p>: Digunakan buat bikin paragraf teks. Otomatis ngasih jarak baris baru antar blok teks.
 
-2. <p> (Paragraph)
-Fungsinya buat bungkus teks paragraf. Setiap lu pake tag ini, otomatis bakal ada jarak (margin) di atas sama bawah teksnya.
+<a>: Digunakan buat bikin link atau tautan yang bisa diklik buat pindah halaman.
 
-Contoh: <p>Ini teks paragraf yang panjang.</p>
+<img>: Digunakan buat nampilin gambar di dalam halaman web.
 
-3. <a> (Anchor)
-Ini tag "sakti" buat bikin link atau tautan. Lu perlu atribut href buat nentuin alamat tujuannya.
+<ul> & <li>: Digunakan buat bikin daftar poin-poin (bullet points). <ul> itu wadahnya, <li> itu isi tiap poinnya.
 
-Contoh: <a href="https://google.com">Klik di sini buat ke Google</a>
+<div>: Digunakan sebagai wadah atau kotak pembungkus buat ngelompokkin beberapa elemen jadi satu bagian.
 
-4. <img> (Image)
-Buat nampilin gambar. Tag ini nggak punya penutup, tapi butuh atribut src (sumber gambar) dan alt (teks alternatif kalau gambar gagal loading).
+<span>: Digunakan buat bungkus kata atau teks pendek di dalam satu baris supaya bisa diatur secara spesifik.
 
-Contoh: <img src="foto.jpg" alt="Foto Keren">
+<br>: Digunakan buat maksa teks pindah ke baris baru (enter) tanpa bikin paragraf baru.
 
-5. <ul> & <li> (Unordered List)
-Pasangan buat bikin daftar poin (bullet points). <ul> itu wadahnya, <li> itu isi tiap poinnya.
+<button>: Digunakan buat bikin tombol yang bisa diklik oleh user.
 
-Contoh: ```html
-<ul>
-<li>Kopi</li>
-<li>Susu</li>
-</ul>
-
-
-6. <div> (Division)
-Tag serbaguna buat ngelompokkin elemen-elemen. Anggap aja kayak kotak kosong buat wadah konten supaya gampang diatur tata letaknya pake CSS nanti.
-
-Contoh: <div class="container">...isi konten...</div>
-
-7. <span> (Inline Container)
-Mirip kayak <div>, tapi bedanya <span> itu inline. Biasanya dipake buat ngasih gaya tertentu di tengah-tengah teks tanpa bikin baris baru.
-
-Contoh: <p>Baju ini warnanya <span style="color:red;">merah</span></p>
-
-8. <br> (Break)
-Buat bikin baris baru (enter) secara paksa. Tag ini juga nggak butuh penutup.
-
-Contoh: Teks baris satu <br> Teks baris dua
-
-9. <button> (Button)
-Sesuai namanya, buat bikin tombol yang bisa diklik. Biasanya nanti bakal disambungin ke JavaScript buat aksi tertentu.
-
-Contoh: <button type="button">Klik Saya!</button>
-
-10. <table> (Table)
-Buat bikin tabel data. Di dalamnya biasanya ada <tr> (baris), <th> (judul kolom), dan <td> (isi sel).
+<table>: Digunakan buat nampilin data dalam bentuk tabel yang punya baris dan kolom.
